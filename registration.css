@@ -1,0 +1,70 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    background-color: #225522; /* Dark green background for the page */
+  }
+  
+  .container {
+    background-image: url("Umoja\ Background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(110, 15, 15, 0.8); /* 80% transparent white background for form */
+    padding: 30px;
+    border-radius: 5px;
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex; /* Introduce flex display */
+    flex-direction: column; /* Arrange elements vertically */
+    align-items: center; /* Center elements horizontally */
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #08683b;
+    border-radius: 3px;
+    box-sizing: border-box;
+  }
+  
+  button[type="submit"] {
+    background-color: #1a641c;
+    color: rgb(130, 103, 219);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  #login-button {
+    background-color: #4CAF50; /* Example color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 15px; /* Example spacing */
+}
+#success-message {
+    color: green;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
